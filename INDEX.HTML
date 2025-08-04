@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Welcome to my personal portfolio page showcasing my projects, skills, and background." />
+  <meta name="keywords" content="Portfolio, Web Developer, HTML5, Accessibility, SEO" />
+  <meta name="author" content="Your Name" />
+  <title>My Accessible Portfolio</title>
+</head>
+
+<body>
+  <!-- Header with site title and introduction -->
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <h2>Images</h2>
+    <figure>
+      <img src="https://lh3.googleusercontent.com/a/ACg8ocLMDkdNL4WgfGsMSfxVvwx8edx29Uc1_4DZUAm9IdF63LzbVGO7=s360-c-no" 
+      alt="Profile Picture"
+       width="200" 
+       height="200" />
+
+      <figcaption>Laban Kipkoech - Web Developer</figcaption>
+    </figure>
+    <p>An aspiring web developer focused on accessibility, clean code, and SEO best practices.</p>
+  </header>
+
+  <!-- Navigation links -->
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main content area -->
+  <main>
+    <!-- About section -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <p>Hello! I'm a passionate learner and aspiring web developer. I enjoy building accessible, user-friendly websites and improving my skills in front-end development.</p>
+    </section>
+
+    <!-- Skills section -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Programming Skills</h2>
+      <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Python</li>
+        <li>SQL</li>
+      </ul>
+    </section>
+
+    <!-- Projects section -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <article>
+        <h3><a href="https://github.com/Labans-lab/My-Portfolio-Beginner." target="_blank" rel="noopener">
+          Accessible Portfolio Website</a></h3>
+        <p>A simple portfolio site using semantic HTML and accessibility best practices.</p>
+      </article>
+      <article>
+        <h3><a href="https://github.com/Labans-lab/SQL_retail_sales_analysis" 
+          target="_blank" rel="noopener">Retail Sales Analysis SQL Project</a></h3>
+        <p>This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data.</p>
+      </article>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>You can reach me at:</p>
+      <address>
+        Email: <a href="mailto:labankipkoech047@gmail.com">labankipkoech047@gmail.com</a><br />
+        LinkedIn: <a href="https://linkedin.com/in/labankipkoech" target="_blank">linkedin.com/in/labankipkoech</a>
+      </address>
+    </section>
+  </main>
+
+  <!-- Footer with copyright -->
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
